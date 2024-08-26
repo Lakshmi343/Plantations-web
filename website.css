@@ -2,11 +2,26 @@ body {
     font-family: Arial, sans-serif;
     background-color: #FFFFFF;
 }
+
 /* Navbar */
+a{
+  text-decoration: none;
+
+}
 .navbar-brand {
     display: flex;
     font-weight: bold; 
     color:#fff;
+}
+.navbar-brand .dropdown{
+  text-decoration: none;
+}
+.dropdown{
+  text-decoration: none;
+}
+.nav-data{
+  align-items: center;
+  display: flex;
 }
 .nav-btn.contact-btn.ms-lg-auto {
   text-decoration: none;
@@ -43,11 +58,13 @@ body {
     background-color: #5a2d1c; 
     border-color: #5a2d1c;
 }
-
+.nav-data{
+  margin-left: 500px;
+}
 
 /* Home Section */
 .bg-image {
-    background-image: url('./images/home.png'); 
+    background-image: url('./images/firstpag.jpeg'); 
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -70,7 +87,7 @@ body {
     size: 56px;
     line-height: 70px;
     align-items: center;
-    color: #FFFFFF;
+   
 }
 
 .home-cont {

@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-<nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+<!-- <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
     <div class="container-fluid header-container">
         <a class="navbar-brand d-flex align-items-center" href="#">
             <img src="./images/logos.png" alt="Logo" class="me-2" style="color: #ffff; background-color: #ffff;">
@@ -21,42 +21,77 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse menu-item-center justify-content-between" id="navbarNav">
-            <ul class="navbar-nav mb-2 mb-lg-0">
-                <li class="nav-item">
+           
+                <p class="nav-item">
                     <a class="nav-link" href="./AboutPage.html">About</a>
-                </li>
-                <!-- <div class="dropdown">
-                <li class="nav-item">
-                    <a class="nav-link" href="./Bussinesspage.html">Our Business</a>
-                   
-                </li>
-                </div> -->
+                </p>
+                
                 <div class="dropdown">
-                    <a class="txt-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown button
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    <p class=" text-white dropdown-toggle"  data-bs-toggle="dropdown" aria-expanded="false" style="margin-top: 7px;">
+                        Our business
+                    </p>
+                    <div class="dropdown-menu" style="background-color: transparent;" >
+                      <p><a class="dropdown-item" href="./BusinessIndia.html" style="color: #ffff;">India</a></p>
+                      <p><a class="dropdown-item" href="./BussinessAfrica.html" style="color: #ffff;">Africa</a></p>
+                      
+                    </div>
                   </div>
                   
-                <li class="nav-item">
+                <p class="nav-item">
                     <a class="nav-link" href="./Sustainability.html">Sustainability</a>
-                </li>
-                <li class="nav-item">
+                </p>
+                <p class="nav-item">
                     <a class="nav-link" href="./Investor.html">Investor</a>
-                </li>
-                <li class="nav-item">
+                </p>
+                <p class="nav-item">
                     <a class="nav-link" href="./News.html">News</a>
+                </p>
+                <p class="nav-item">
+                    <a class="nav-link" href="./Careers.html">careers</a>
+                </p>
+            
+            <a class="nav-btn contact-btn ms-lg-auto" href="./Contact.html" role="button">Contact Us</a>
+            
+        </div>
+    </div>
+</nav> -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+    <div class="container-fluid header-container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="./images/logos.png" alt="Logo" class="me-2" style="background-color: #fff;">
+            <h1 class="mb-0" style="color: white;">Logo</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./AboutPage.html" style="text-decoration: none;">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none; margin-top: 7px;">
+                        Our Business
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: transparent;">
+                        <li><a class="dropdown-item" href="./BusinessIndia.html" style="color: #ffff; text-decoration: none;">India</a></li>
+                        <li><a class="dropdown-item" href="./BussinessAfrica.html" style="color: #ffff; text-decoration: none;">Africa</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./Careers.html">careers</a>
+                    <a class="nav-link" href="./Sustainability.html" style="text-decoration: none;">Sustainability</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Investor.html" style="text-decoration: none;">Investor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./News.html" style="text-decoration: none;">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Careers.html" style="text-decoration: none;">Careers</a>
                 </li>
             </ul>
-            <a class="nav-btn contact-btn ms-lg-auto" href="./Contact.html" role="button">Contact Us</a>
-
+            <a class="nav-btn contact-btn ms-lg-auto" href="./Contact.html" role="button" style="text-decoration: none;">Contact Us</a>
         </div>
     </div>
 </nav>
@@ -359,6 +394,7 @@
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 
