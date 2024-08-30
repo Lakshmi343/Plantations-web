@@ -1,13 +1,33 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #FFFFFF;
+  
 }
 
 /* Navbar */
+.navbar-toggler-icon {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after,
+.navbar-toggler-icon {
+  background-color: white; 
+}
+
 a{
   text-decoration: none;
 
 }
+.navbar-toggler-icon{
+  color: #ffffff;
+}
+
 .navbar-brand {
     display: flex;
     font-weight: bold; 
@@ -33,8 +53,10 @@ a{
   text-align: center;
   margin-left: 15px; 
 }
-
-
+#nav-btn{
+  background-color: #4b2119;
+  color: #fff;
+}
 
 .navbar-brand img {
     margin-right: 10px; 
@@ -972,8 +994,9 @@ nav.navbar {
 .go-icon .right-left div img{
     max-width: 24px;
 }
-.go-icon .right-left .bg-brown img {
-    filter: brightness(0) invert(1);
+.go-icon .right-left .bg-white img {
+    filter: brightness(3) invert(1);
+    color: #fff;
 }
 .plantation-content div.property-info{
     max-width:100%;
@@ -1229,6 +1252,7 @@ nav.navbar {
     background-image:url("./images/contact-us-bg.png");
     min-height:650px;
     width: 100%;
+    margin-bottom: 100px;
 }
 .contact-section .contact-content{
     background-color:#FEF7EE;
